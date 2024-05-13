@@ -159,7 +159,7 @@ input:checked ~ .bubble::after {
 	width: 10%;
 	font-size: 1.125rem;
 	padding: 1rem 1.5rem;
-	color: #FFF;
+	color: #16daec;
 	background-color: #b01d1d;
 	border-radius: 0.5rem;
 	box-shadow: var(--personal-glow);
@@ -233,3 +233,20 @@ input:checked ~ .bubble::after {
 	text-decoration: line-through;
 	color: var(--grey);
 }
+.button {
+	display: inline-block;
+	padding: 10px 20px;
+	font-size: 16px;
+	text-align: center;
+	text-decoration: none;
+	background-color: #4CAF50;
+	color: rgb(229, 38, 38);
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+  
+  /* Hover effect for button */
+  .button:hover {
+	background-color: #17cbdf;
+  }
